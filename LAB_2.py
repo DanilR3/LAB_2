@@ -1,4 +1,6 @@
-﻿def analyze_log_file(log_file_path):
+﻿# Завдання 1: Аналізатор лог-файлів
+
+def analyze_log_file(log_file_path):
     response_counts = {}  
 
     try:
@@ -23,7 +25,7 @@
 
 print(analyze_log_file("apache_logs.txt"))
 
-
+# Завдання 2: Генератор хешів файлів
 import hashlib
 
 def generate_file_hashes(*file_paths):
@@ -46,7 +48,7 @@ def generate_file_hashes(*file_paths):
 
 print(generate_file_hashes("file1.txt", "file2.txt"))
 
-
+# Завдання 3: Фільтрація IP-адрес з файлу
 def filter_ips(input_file_path, output_file_path, allowed_ips):
     ip_counts = {}  
 
